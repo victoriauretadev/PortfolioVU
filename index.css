@@ -864,3 +864,15 @@ footer{
   font-family: "Inter", sans-serif;
   font-size:0.9rem;
 }
+
+
+
+/* Menu responsivo */
+
+#menu-toggle{
+  display: none;
+}
+
+.menu-label{
+  display: none;
+}

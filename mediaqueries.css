@@ -2,146 +2,198 @@
 
 @media screen and (max-width: 992px) {
 
-    .description h2{
-        font-size:3.5rem;
-    }
-
-    .description h4{
-        font-size:1rem;
-    }
-
-    .description p{
-        font-size: 0.9rem;
-        width: 70%;
-    }
-
-    .contact-me{
-        font-size: 1rem;
-    }
+  /* Menu responsivo */
 
 
+  .navbar{
+    gap:10px;
+  }
 
-    .about-me h2{
-        font-size:3.5rem;
-    }
-
-    .about-me h4{
-        font-size:1rem;
-    }
-
-    .about-me p{
-        font-size: 0.9rem;
-        width: 70%;
-    }
-
-    .dowload-resume{
-        font-size: 1rem;
-    }
-
-    .what-i-do .what-i{
-        font-size: 3.5rem;
-    }
-
-    .what-i-do .what-u {
-        font-size:1rem;
-    }
-
-    .cards-1{
-        width: 90%;
-    }
-
-    .cards-2{
-        width: 90%;
-    }
-
-  .project-1{
+  .navbar-list{
     display: none;
-    
+    position: absolute;
+    top:65px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    opacity: 0.8;
+    border: 2px solid var(--color-boton);
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+  }
+
+  .navbar-list li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .menu-label{
+    display: flex;
+    cursor: pointer;
+    order:2;
+  }
+
+  .img-responsive{
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* .img-responsive{
+    width: 30px;
+    height: 40px;
+
+  } */
+
+  #menu-toggle:checked + .navbar-list{
+    display:flex;
+  }
+
+  .clear{
+    display: none;
+  }
+
+  .img-responsive{
+    margin-right: 30px;
+    width: 20px;
+    height: 10px;
   }
 
 
-  .footer{
-    gap:240px;
+
+
+
+
+
+
+  .description h2 {
+    font-size: 3.5rem;
   }
 
-  footer{
-    gap:310px;
+  .description h4 {
+    font-size: 1rem;
   }
 
-    
- 
+  .description p {
+    font-size: 0.9rem;
+    width: 70%;
+  }
 
+  .contact-me {
+    font-size: 1rem;
+  }
+
+  .about-me h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-me h4 {
+    font-size: 1rem;
+  }
+
+  .about-me p {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
+  .dowload-resume {
+    font-size: 1rem;
+  }
+
+  .what-i-do .what-i {
+    font-size: 3.5rem;
+  }
+
+  .what-i-do .what-u {
+    font-size: 1rem;
+  }
+
+  .cards-1 {
+    width: 90%;
+  }
+
+  .cards-2 {
+    width: 90%;
+  }
+
+  .project-1 {
+    display: none;
+  }
+
+  .footer {
+    gap: 240px;
+  }
+
+  footer {
+    gap: 310px;
+  }
 }
-
-
 
 /* RESPONSIVO CELULAR */
 
-@media screen and (max-width: 785px){
+@media screen and (max-width: 785px) {
+  .description h2 {
+    justify-content: center;
+    text-align: center;
+  }
 
-    .description h2{
-        justify-content: center;
-        text-align: center;
+  .cards-1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
 
-    }
+  .cards-2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .cards-1{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .cards-2{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
+  .caja-projects {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10px;
+  }
 
-    .skills{
-        display: flex;
-        flex-direction: column;
-    }
+  form {
+    width: 90%;
+  }
 
-    .caja-projects{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin-left:10px;
-    }
+  input {
+    width: 100%;
+  }
 
-    form{
-        width: 90%;
-    }
+  select {
+    width: 100%;
+  }
 
-    input{
-        width: 100%;
-    }
+  textarea {
+    width: 100%;
+  }
 
-    select{
-        width: 100%;
-    }
+  .submit {
+    width: 100%;
+  }
 
-    textarea{
-        width: 100%;
-    }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 
-    .submit{
-        width: 100%;
-        
-    }
-
-    
-    .footer{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-   
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 }
