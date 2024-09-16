@@ -1,0 +1,37 @@
+/* media queries tablet */
+
+:root {
+  --tipografia-nav-titulo: #ffffff;
+  --tipografia-nav-home: #4fc3f7;
+  --tipografia-nav-li: #c1c1c1;
+  --tipografia-text-about-me: #e1e1e1;
+  --tipografia-formulario: #000000;
+  --tipografia-titulo-lets: #dedede;
+  --boton-contact-me: #4fc3f7;
+  --caja-cards: #2b2b2b;
+  --boton-projects: #484e53;
+  --tipografia-projects: #a9a9a9;
+  --tipografia-color-sql: #f5f5f5;
+  --formulario: #d6dded;
+  --formulario-color-tipo: #8987a1;
+  --color-tipografia-mail: #c9c9c9;
+}
+
+
+@media screen and (max-width: 992px) {
+  /* Menu responsivo */
+
+  .form-login {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #1a1a1a;
+  }
+
+  .login-form{
+    width: 100%;
+  }
+}

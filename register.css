@@ -37,7 +37,6 @@
   align-items: center;
   gap: 100px;
   background-color: #1a1a1a;
-  height: 100%;
 }
 
 .login {
@@ -132,6 +131,7 @@
   align-items: center;
   gap: 20px;
   padding: 30px;
+  height: 100%;
 }
 
 .join-text {
@@ -251,15 +251,6 @@ form {
   gap: 10px;
 }
 
-.label-name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
-  color: var(--tipografia-formulario);
-  font-weight: 300;
-  text-align: start;
-  margin-right: 300px;
-}
-
 .label-email {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
@@ -293,15 +284,6 @@ input {
   padding: 10px 105px;
 }
 
-.username {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
 .email {
   display: flex;
   flex-wrap: nowrap;
@@ -326,7 +308,7 @@ input {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 150px;
 }
 
 .icon-check {
