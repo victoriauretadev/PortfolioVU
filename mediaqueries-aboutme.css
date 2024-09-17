@@ -92,12 +92,42 @@
     height: 20px;
   }
 
-  .aboutme-text {
+  .title-aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+    /* margin-left:150px; */
+  }
+
+  /* .aboutme-text {
     margin-left: -20px;
+  } */
+
+  /* .description p {
+    margin-right: 1px;
+  } */
+
+  /* .img-aboutme {
+    width:30px;
+  } */
+
+  .img-aboutme {
+    display: none;
   }
 
   .description p {
-    margin-right: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-right: 0;
+    font-size: 16px;
+    width: 70%;
   }
 
   .ordered-skills {
@@ -106,6 +136,45 @@
     flex-wrap: wrap;
     justify-content: start;
     align-items: start;
+  }
+
+  .languages h3 {
+    font-size: 19px;
+  }
+
+  .languages h4 {
+    font-size: 14px;
+  }
+  .other h3 {
+    font-size: 19px;
+  }
+
+  .other h4 {
+    font-size: 14px;
+  }
+
+  .tools h3 {
+    font-size: 19px;
+  }
+
+  .tools h4 {
+    font-size: 14px;
+  }
+
+  .databases h3 {
+    font-size: 19px;
+  }
+
+  .databases h4 {
+    font-size: 14px;
+  }
+
+  .frameworks h3 {
+    font-size: 19px;
+  }
+
+  .frameworks h4 {
+    font-size: 14px;
   }
 
   .fun-facts-1 {
@@ -146,6 +215,36 @@
   .fun-facts-4 h3 {
     padding: 10px;
     font-size: 1rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  /* .footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+  /* } */
+  */
+  /* .footer-logo .footer-h2 {
+    font-size: 25px;
+    margin-left: 150px;
+  } */
+
+  .mail {
+    margin-left: 75px;
+  }
+
+  .footer-tipo {
+    margin-left: 114px;
   }
 
   #menu-toggle:checked + .navbar-list {
